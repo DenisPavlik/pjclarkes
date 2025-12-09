@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+
+.category-name {
+  @apply flex items-center gap-4 font-semibold text-center
+               before:flex-1 before:border-t-2 before:border-red-600
+               after:flex-1 after:border-t-2 after:border-red-600 text-red-700
+}

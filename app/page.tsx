@@ -1,24 +1,25 @@
-import Image from "next/image";
 import Nav from "./components/Nav";
+import Header from "./components/Header";
+import Card from "./components/Card";
+import { BeefIcon, DrumstickIcon, HamburgerIcon, SaladIcon, SandwichIcon, ShrimpIcon, SoupIcon, UtensilsCrossedIcon } from "lucide-react";
+
 
 export default function Home() {
-  
   return (
-    <div>
-      <header>
-        <div className="p-2">
-          <Image
-            src={
-              "https://cdn.pjclarkes.com/wp-content/uploads/2024/05/29171810/pj-logo1-2.svg"
-            }
-            alt="logo"
-            width={150}
-            height={150}
-          />
-        </div>
-      </header>
-
+    <div className="mx-2">
+      <Header />
       <Nav />
+      {/* <Soups /> */}
+      <div className="mt-4 grid grid-cols-2 gap-4">
+        <Card title="Soup" icon={SoupIcon} />
+        <Card title="For the table" icon={DrumstickIcon} />
+        <Card title="Raw Bar" icon={ShrimpIcon} />
+        <Card title="Classics" icon={BeefIcon} />
+        <Card title="Salads" icon={SaladIcon} />
+        <Card title="Sandwiches" icon={SandwichIcon} />
+        <Card title="Clarke Burgers" icon={HamburgerIcon} />
+        <Card title="Sides" icon={UtensilsCrossedIcon} />
+      </div>
     </div>
   );
 }

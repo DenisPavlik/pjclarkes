@@ -7,10 +7,10 @@ const categories = ["lunch", "dinner", "brunch", "drinks", "desserts"];
 export default function Nav() {
   const [category, setCategory] = useState("lunch");
   return (
-    <div className="m-auto">
+    <div className="m-auto mt-4">
       <nav className="flex items-center justify-center">
         <ul
-          className="flex items-center justify-center gap-8 font-semibold uppercase text-xl
+          className="flex items-center justify-center gap-4 font-semibold uppercase text-sm
           *:hover:text-red-600 *:duration-300 *:cursor-pointer *:hover:underline underline-offset-6"
         >
           {categories.map((c) => (
