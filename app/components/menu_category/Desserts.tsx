@@ -1,8 +1,8 @@
-import MenuItem from "./MenuItem";
-import nyc from '@/app/img/nyc.png'
-import bs from '@/app/img/bs.png'
-import rrbp from '@/app/img/rrbp.png'
-import pp from '@/app/img/pp.png'
+import nyc from '@/app/img/desserts/nyc.png'
+import bs from '@/app/img/desserts/bs.png'
+import rrbp from '@/app/img/desserts/rrbp.png'
+import pp from '@/app/img/desserts/pp.png'
+import MenuItem from '../MenuItem'
 
 export default function Desserts() {
   return (

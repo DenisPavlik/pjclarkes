@@ -1,11 +1,15 @@
 "use client";
 
-import { useState } from "react";
+const categories = ["lunch", "dinner", "brunch", "desserts"] as const;
+export type Category = (typeof categories)[number];
+export { categories };
 
-const categories = ["lunch", "dinner", "brunch", "drinks", "desserts"];
+type NavProps = {
+  category: Category;
+  onChangeCategory: (c: Category) => void;
+};
 
-export default function Nav() {
-  const [category, setCategory] = useState("lunch");
+export default function Nav({ category, onChangeCategory }: NavProps) {
   return (
     <div className="m-auto mt-4">
       <nav className="flex items-center justify-center">
@@ -16,7 +20,7 @@ export default function Nav() {
           {categories.map((c) => (
             <li
               key={c}
-              onClick={() => setCategory(c)}
+              onClick={() => onChangeCategory(c)}
               className={`${
                 category === c
                   ? "text-red-600 tracking-wider underline"

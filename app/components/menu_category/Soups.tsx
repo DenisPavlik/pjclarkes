@@ -1,6 +1,6 @@
-import cv from "../img/cv.png";
-import nycc from "../img/nycc.png";
-import MenuItem from "./MenuItem";
+import cv from "@/app/img/soups/cv.png";
+import nycc from "@/app/img/soups/nycc.png";
+import MenuItem from "../MenuItem";
 
 export default function Soups() {
   return (
