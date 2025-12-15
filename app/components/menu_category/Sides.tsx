@@ -13,31 +13,31 @@ export default function Sides() {
           <MenuItem
             name="Parmesan Truffle fries"
             description="New England clam chowder with chives."
-            price={18}
+            price={12}
             image={tff}
           />
           <MenuItem
             name="Sea Salt fries"
             description="Chicken vegetable and potato dumpling soup with fresh dill on top."
-            price={17}
+            price={10}
             image={ff}
           />
           <MenuItem
             name="Crispy Onion Strings"
             description="New England clam chowder with chives."
-            price={18}
+            price={10}
             image={cos}
           />
           <MenuItem
             name="Sauteed Spinach"
             description="New England clam chowder with chives."
-            price={18}
+            price={10}
             image={ss}
           />
           <MenuItem
             name="Rosti Potatoes and Carrots"
             description="New England clam chowder with chives."
-            price={18}
+            price={10}
             image={rpc}
           />
         </div>

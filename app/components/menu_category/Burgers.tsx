@@ -14,38 +14,38 @@ export default function Burgers() {
           <MenuItem
             name="The Clarke Burger"
             description="Clarke (temp) with sea salt fries."
-            price={18}
+            price={21}
             image={cb}
           />
           <MenuItem
             name="PJs 1884 Cheeseburger"
             description="Cheeseburger (temp) with sea salt fries."
-            price={18}
+            price={24}
             image={ch}
           />
+            <MenuItem
+              name="Barbeque Bleu Burger"
+              description="BBQ Bleu (temp) with sea salt fries."
+              price={26}
+              image={bb}
+            />
           <MenuItem
             name="The Cadillac"
             description="Cadillac (temp) with sea salt fries."
-            price={17}
+            price={27}
             image={cad}
           />
-          <MenuItem
-            name="Barbeque Bleu Burger"
-            description="BBQ Bleu (temp) with sea salt fries."
-            price={18}
-            image={bb}
-          />
+            <MenuItem
+              name="Trio of Mini Burgers"
+              description="Trio (temp) with sea salt fries."
+              price={25}
+              image={trio}
+            />
           <MenuItem
             name="The Bartender's Burger"
             description="Bartender's burger (temp) with sea salt fries."
-            price={18}
+            price={25}
             image={bar}
-          />
-          <MenuItem
-            name="Trio of Mini Burgers"
-            description="Trio (temp) with sea salt fries."
-            price={18}
-            image={trio}
           />
         </div>
       </section>

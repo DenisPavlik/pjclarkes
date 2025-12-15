@@ -12,25 +12,25 @@ export default function Desserts() {
           <MenuItem
             name="New York Cheesecake"
             description="Cheesecake with cherry compote."
-            price={17}
+            price={15}
             image={nyc}
           />
           <MenuItem
             name="Brownie Sundae"
             description="Brownie sundae with fudge and whipped cream."
-            price={18}
+            price={15}
             image={bs}
           />
           <MenuItem
             name="Rum Raisin Bread Pudding"
             description="Rum Raisin Bread Pudding with Crème Anglaise."
-            price={18}
+            price={15}
             image={rrbp}
           />
           <MenuItem
             name="Pumpkin Pie"
             description="Pumpkin pie with whipped cream and cinnamon."
-            price={18}
+            price={15}
             image={pp}
           />
         </div>
