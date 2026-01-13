@@ -12,31 +12,31 @@ export default function Sides() {
         <div className="grid grid-cols-1 md:grid-cols-2 mt-2 gap-6">
           <MenuItem
             name="Parmesan Truffle fries"
-            description="New England clam chowder with chives."
+            description="Parmesan Truffle fries."
             price={12}
             image={tff}
           />
           <MenuItem
             name="Sea Salt fries"
-            description="Chicken vegetable and potato dumpling soup with fresh dill on top."
+            description="Sea Salt fries."
             price={10}
             image={ff}
           />
           <MenuItem
             name="Crispy Onion Strings"
-            description="New England clam chowder with chives."
+            description="Crispy onion strings with dijon aioli."
             price={10}
             image={cos}
           />
           <MenuItem
             name="Sauteed Spinach"
-            description="New England clam chowder with chives."
+            description="Sauteed Spinach with garlic."
             price={10}
             image={ss}
           />
           <MenuItem
             name="Rosti Potatoes and Carrots"
-            description="New England clam chowder with chives."
+            description="Rosti potatoes and carrots with rosemary/thyme salt."
             price={10}
             image={rpc}
           />
