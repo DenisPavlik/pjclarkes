@@ -3,7 +3,7 @@ import Main from "./components/Main";
 
 export default function Home() {
   return (
-    <div className="max-w-4xl m-auto mb-4 mx-2">
+    <div className="max-w-4xl m-auto mb-4 px-2">
       <Header />
       <Main />
     </div>
