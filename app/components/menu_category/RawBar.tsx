@@ -14,7 +14,7 @@ export default function RawBar() {
   return (
     <section className="mt-4 mx-2">
         <h1 className="category-name">Raw Bar</h1>
-        <div className="flex flex-col mt-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 mt-2 gap-6">
           <MenuItem
             name="East Coast Oysters: 1/2 Dozen or Dozen"
             description="Oysters with cocktail sauce, horseradish, mignonette, and a

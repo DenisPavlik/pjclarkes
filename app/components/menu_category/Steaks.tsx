@@ -7,7 +7,7 @@ export default function Steaks() {
   return (
     <section className="mt-4 mx-2">
       <h1 className="category-name">Steaks</h1>
-      <div className="flex flex-col mt-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-2 gap-6">
         <MenuItem
           name="Newport Steak Frites"
           description="With a choice of: maitre d butter, blu butter, or no sauce."

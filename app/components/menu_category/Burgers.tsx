@@ -10,7 +10,7 @@ export default function Burgers() {
   return (
     <section className="mt-4 mx-2">
         <h1 className="category-name">Burgers</h1>
-        <div className="flex flex-col mt-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 mt-2 gap-6">
           <MenuItem
             name="The Clarke Burger"
             description="Clarke (temp) with sea salt fries."

@@ -8,7 +8,7 @@ export default function Salads() {
   return (
     <section className="mt-4 mx-2">
       <h1 className="category-name">Salads</h1>
-      <div className="flex flex-col mt-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-2 gap-6">
         <MenuItem
           name="Winter Salad"
           description="Butter lettuce, roma tomatoes, shredded carrots,red onions, feta, red wine vinaigrette."
